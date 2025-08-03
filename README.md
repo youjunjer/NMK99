@@ -14,9 +14,11 @@ Arduino開發板選擇方式，相容ESP32 Dev Module
 
 ESP32 Dev Module，參考以下設定：
 
-  <img width="657" height="456" alt="image" src="https://github.com/user-attachments/assets/52595588-ebd4-4b87-90b3-ff9f01f435c9" />
+  <img width="569" height="436" alt="image" src="https://github.com/user-attachments/assets/00b58f70-aa55-4a2b-9418-58a15c4b6239" />
+
 
   1. Flash Frequency：40MHz，Flash記憶體使用40MHz
   2. Flash Size：8MB(64Mb)，Flash記憶體提昇至8MB
-  3. PSRAM：Enabled，本裝置使用PSRAM，可加快相機效能
+  3. Partition Scheme：8M with spiffs(3MB APP/1.5M spiffs)
+  4. PSRAM：Enabled，本裝置使用PSRAM，可加快相機效能
 
